@@ -49,7 +49,7 @@ Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjern
 
 ****
 
-Se Datalandsbyen[https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk]  for flere eksempler på bruk av åpne offentlige data.
+Se https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk[Datalandsbyen] for flere eksempler på bruk av åpne offentlige data.
 
 === Hva er et datasett?
 
