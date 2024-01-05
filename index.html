@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <meta name="description" content="Veileder for tilgjengeliggjøring av åpne data">
 <title>Veileder for tilgjengeliggjøring av åpne data</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -85,10 +85,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -209,13 +209,10 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -394,7 +391,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -571,7 +568,7 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <p>Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.</p>
 </div>
 <div class="paragraph">
-<p>Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under <a href="http://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0</a> (CC BY 4.0) eller <a href="http://data.norge.no/nlod/">Norsk lisens for offentlige data</a> (NLOD).</p>
+<p>Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0</a> (CC BY 4.0) eller <a href="https://data.norge.no/nlod/">Norsk lisens for offentlige data</a> (NLOD).</p>
 </div>
 <div class="paragraph">
 <p>Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.</p>
@@ -608,26 +605,20 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <div class="ulist checklist">
 <ul class="checklist">
 <li>
-<p><i class="fa fa-check-square-o"></i> Energiselskapet <a href="https://www.otovo.no/">Otovo</a> er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (<a href="https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97">FKB Bygning</a>)  med åpne data om solforhold fra den europeriske databasen <a href="http://re.jrc.ec.europa.eu/pvg_download/data_download.html">PV-GIS</a>. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.</p>
+<p><i class="fa fa-check-square-o"></i> Energiselskapet <a href="https://www.otovo.no/">Otovo</a> er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (<a href="https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97">FKB Bygning</a>)  med åpne data om solforhold fra den europeriske databasen <a href="https://re.jrc.ec.europa.eu/pvg_download/data_download.html">PV-GIS</a>. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.</p>
 </li>
 <li>
-<p><i class="fa fa-check-square-o"></i> <a href="http://www.framsikt.no/">Framsikt AS</a> leverer styringssystemer for norske kommuner og lager skreddersydde analyseverktøy i hovedsak basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. For eksempel Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.</p>
+<p><i class="fa fa-check-square-o"></i> <a href="https://www.framsikt.no/">Framsikt AS</a> leverer styringssystemer for norske kommuner og lager skreddersydde analyseverktøy i hovedsak basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. For eksempel Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.</p>
 </li>
 <li>
 <p><i class="fa fa-check-square-o"></i> <a href="https://www.bt.no/">Bergens Tidende</a> har laget en egen en varslingstjeneste (bot) som henter data direkte fra ulike kilder og varsler journalistene når bestemte typer hendelser inntreffer i nærheten, for eksempel ved trafikkuhell (åpne data fra Statens vegvesen) eller når en restaurant får anmerkning ved tilsyn (åpne data av Mattilsynet). Tjenesten er til internt bruk, og er et nyttig verktøy for avisens journalister.</p>
-</li>
-<li>
-<p><i class="fa fa-check-square-o"></i> <a href="https://www.holderdeord.no/">Holder de ord</a> er en partipolitisk uavhengig organisasjon som tilbyr en rekke digitale verktøy som gjør det enklere å følge med på norsk politikk. Tjenestene bygger på åpne offentlige data fra blant annet Stortinget.</p>
-</li>
-<li>
-<p><i class="fa fa-check-square-o"></i> I 2017 ble det formidlet 58 millioner elektroniske fakturaer i Norge i <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/ehf-elektronisk-handelsformat">elektronisk handelsformat</a> (EHF). Dette ga en estimert samfunnsgevinst på 4,2 milliarder (<a href="https://www.difi.no/sites/difino/files/difi-rapport_2018_1_program_for_digitale_anskaffelser.pdf#page=13">Difi-rapport 2018:1 s.13</a>). En av suksesskriteriene for dette var at sikkerheten i transaksjoner ble forbedret ved at <a href="https://data.norge.no/data/registerenheten-i-br%C3%B8nn%C3%B8ysund/enhetsregisteret">Enhetsregisteret er tilgjengelig som åpne data</a>.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="paragraph">
-<p>Se <a href="https://data.norge.no/app">https://data.norge.no/app</a>  for flere eksempler på bruk av åpne offentlige data.</p>
+<p>Se <a href="https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk">Datalandsbyen</a> for flere eksempler på bruk av åpne offentlige data.</p>
 </div>
 </div>
 <div class="sect2">
@@ -636,7 +627,7 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <p>Du kan gjøre data tilgjengelig i form av <em>datasett</em>. Et datasett er en samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.</p>
 </div>
 <div class="paragraph">
-<p>Eksempel: Mattilsynet tilbyr <a href="https://data.norge.no/data/mattilsynet/smilefjestilsyn-p%C3%A5-serveringssteder">data om tilsyn med serveringssteder i Norge</a> (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under <a href="https://data.norge.no/nlod/no">Norsk lisens for offentlige data</a> (NLOD).</p>
+<p>Eksempel: Mattilsynet tilbyr datasettet <a href="https://data.norge.no/datasets/288aa74c-e3d3-492e-9ede-e71503b3bfd9">Smilefjestilsyn på serveringssteder</a> som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0</a> (CC BY 4.0).</p>
 </div>
 <div class="paragraph">
 <p>Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data.</p>
@@ -762,7 +753,7 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <p><strong>Røde data</strong> er datasett som krever særskilt rettslig grunnlag for tilgang. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, hjemmel i lov eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).</p>
 </div>
 <div class="paragraph">
-<p>Se Difis <a href="https://doc.difi.no/data/veileder-orden-i-eget-hus/#_vurdering_av_tilgangsniv%C3%A5">Veileder for orden i eget hus</a> for mer informasjon om trafikklyssystemet.</p>
+<p>Se Digdirs <a href="https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716">Veileder for orden i eget hus</a> for mer informasjon om trafikklyssystemet.</p>
 </div>
 </div>
 </div>
@@ -863,13 +854,10 @@ Det kan være fristende å vente med publisering av åpne data til en har oversi
 <p>EU-kommisjonens policy for tilgang til offentlige data omfatter all informasjon som offentlige organer produserer, samler inn eller betaler for. Eksempler er geografisk informasjon, statistikk, værdata, data fra offentlig finansierte forskningsprosjekter og digitaliserte bøker fra biblioteker. Policyen følger prinsippet om at offentlige data skal være mest mulig åpent tilgjengelige og gjenbrukbare.</p>
 </div>
 <div class="paragraph">
-<p>EUs Viderebruksdirektiv  (<a href="https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information">PSI-direktivet</a>) utgjør det lovmessige rammeverket for tilgang til offentlige data i EU og EØS. Direktivet bygger på to av grunnpilarene i EUs indre marked: transparens og rettferdig konkurranse. I tillegg ønsker EU-kommisjonen å sikre en mer effektiv utnyttelse av denne typen innhold over landegrensene. Fra og med 2013 omfatter direktivet også arkiv, bibliotek og museum, samt slår fast retten til å få utlevert data i maskinlesbare formater.</p>
+<p>EUs Åpne data direktiv - (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L1024">"ODD-direktivet"</a>) utgjør det lovmessige rammeverket for tilgang til offentlige data i EU og EØS. Direktivet bygger på to av grunnpilarene i EUs indre marked: transparens og rettferdig konkurranse. I tillegg ønsker EU-kommisjonen å sikre en mer effektiv utnyttelse av denne typen innhold over landegrensene.</p>
 </div>
 <div class="paragraph">
-<p>Viderebruksdirektivet er implementert i offentleglova. Direktivet omfatter tekstdokumenter, databaser, lydfiler og filmklipp, men gjelder ikke områdene utdanning, forskning og kringkasting.</p>
-</div>
-<div class="paragraph">
-<p>EU-kommisjonen finansierer en rekke åpne data-prosjekter, inkludert en europeisk dataportal, gjennom programmet Connecting Europe Facility (CEF). Midler for finansiering av digitaliseringsprosjekter under CEF-programmet lyses ut flere ganger i året. Både offentlige og private virksomheter kan søke om midler. Kontakt gjerne Difi om du ønsker mer informasjon om finansieringsmuligheter i CEF-programmet.</p>
+<p>EU-kommisjonen finansierer en rekke åpne data-prosjekter, inkludert en europeisk dataportal, gjennom (<a href="https://www.digdir.no/internasjonalt-arbeid/digital-europa-programmet-digital-europe-programme/3192">DIGITAL Europa-programmet</a>). Midler for finansiering av digitaliseringsprosjekter under DIGITAL Europa-programmet lyses ut flere ganger i året. Både offentlige og private virksomheter kan søke om midler. Kontakt gjerne Digdir om du ønsker mer informasjon om finansieringsmuligheter i DIGITAL-programmet.</p>
 </div>
 </div>
 </div>
@@ -969,7 +957,7 @@ Vi er spesielt opptatt av strukturerte data i denne veilederen, men alle Creativ
 <div class="sect2">
 <h3 id="_hvilke_lisens_bør_jeg_velge"><a class="anchor" href="#_hvilke_lisens_bør_jeg_velge"></a>Hvilke lisens bør jeg velge?</h3>
 <div class="paragraph">
-<p>De to lisensene som er anbefalt brukt av Kommunal- og moderniseringsdepartementet er begge navngivelse-lisenser: <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0 (CC 4.0-BY)</a> og <a href="https://data.norge.no/nlod/">Norsk lisens for offentlige data (NLOD)</a>. Dersom du velger CC 4.0-BY legger du bedre til rette for internasjonal bruk.</p>
+<p>De to lisensene som er anbefalt brukt i regjeringens retningslinjer er begge navngivelse-lisenser: <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0 (CC 4.0-BY)</a> og <a href="https://data.norge.no/nlod/">Norsk lisens for offentlige data (NLOD)</a>. Dersom du velger CC 4.0-BY legger du bedre til rette for internasjonal bruk.</p>
 </div>
 <div class="paragraph">
 <p>Du kan også vurdere å bruke Creative Commons Zero (CC0). Du sier da fra deg alle rettigheter til datasettet, inkludert retten til å bli oppgitt som kilde.</p>
@@ -1010,7 +998,7 @@ Vi er spesielt opptatt av strukturerte data i denne veilederen, men alle Creativ
 <h2 id="_hvordan_bør_jeg_tilby_data"><a class="anchor" href="#_hvordan_bør_jeg_tilby_data"></a>Hvordan bør jeg tilby data?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Når du skal tilby data, skal du følge regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer ved tilgjengeliggjøring av offentlige data</a>. Disse er gjengitt under, med kommentarer og veiledning. Vi oppdaterer veiledningen fortløpende, så send oss gjerne en epost til <a href="mailto:opnedata@difi.no">opnedata@difi.no</a> om du har spørsmål som ikke besvares her, eller har innspill til rådene vi gir.</p>
+<p>Når du skal tilby data, skal du følge regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer ved tilgjengeliggjøring av offentlige data</a>. Disse er gjengitt under, med kommentarer og veiledning.</p>
 </div>
 <div class="sect2">
 <h3 id="_1_bruk_åpne_standardlisenser"><a class="anchor" href="#_1_bruk_åpne_standardlisenser"></a>1. Bruk åpne standardlisenser</h3>
@@ -1205,7 +1193,7 @@ Data bør ha unike, permanente og hensiktsmessige adresser på internett, slik a
 <p>URLer kan også fungere fint som identifikatorer gitt at de er unike, permanente og hensiktsmessige. URLer som samtidig er identifikatorer for en ressurs (for eksempel et datasett, begrep eller en opplysning) kaller vi URIer (Uniform Resource Identifier).</p>
 </div>
 <div class="paragraph">
-<p>Se <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett">Referansekatalogen for IT-standarde</a>r for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.</p>
+<p>Se <a href="https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480">Referansekatalogen for IT-standarder</a> for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1219,7 +1207,7 @@ Hvilke data som tilgjengeliggjøres bør være drevet av brukernes behov. For at
 </div>
 </div>
 <div class="paragraph">
-<p>I <a href="https://fellesdatakatalog.brreg.no/">Felles datakatalog</a> kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med <a href="https://doc.difi.no/dcat-ap-no/">Standard for beskrivelse av datasett og datakataloger</a> slik at de kan høstes av de nasjonale katalogene.</p>
+<p>På <a href="https://data.norge.no/">Data.norge.no</a> kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med <a href="https://data.norge.no/specification/dcat-ap-no">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)</a> slik at de kan høstes av de nasjonale katalogene.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1236,7 +1224,7 @@ Virksomhetene bør tilpasse data slik at brukere enkelt kan ta dem i bruk, for e
 <p>Å tilby data er en offentlig tjeneste på lik linje med å tilby en hvilken som helst annen offentlig tjeneste. Prinsippet om “brukeren i sentrum” står sentralt også her. Brukerne i denne sammenhengen er gjerne aktører som skal bruke data i en tjeneste,  beslutningsprosess eller til forskning. Måten vi tilbyr data på kan være helt avgjørende for en god og effektiv bruk.</p>
 </div>
 <div class="paragraph">
-<p>Difi anbefaler at virksomheten selv bruker den samme datakilden i egne prosesser som du tilbyr til andre fremfor å ha en datakilde til internt bruk og en for eksterne brukere (gitt at opplysningene er de samme).</p>
+<p>Digdir anbefaler at virksomheten selv bruker den samme datakilden i egne prosesser som du tilbyr til andre fremfor å ha en datakilde til internt bruk og en for eksterne brukere (gitt at opplysningene er de samme).</p>
 </div>
 </div>
 <div class="sect2">
@@ -1250,10 +1238,7 @@ Virksomhetene bør tilpasse data slik at brukere enkelt kan ta dem i bruk, for e
 </div>
 </div>
 <div class="paragraph">
-<p>Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på #Hack4no eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.</p>
-</div>
-<div class="paragraph">
-<p>Statens vegvesen har <a href="http://www.vegdata.no/">en egen blogg</a>, der de tar opp ulike tema knyttet til bruk av Nasjonal vegdatabank. Dette er et godt eksempel på hvordan en kan oppmuntre til bruk av åpne data som virksomheten tilbyr.</p>
+<p>Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på hackathons eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1408,27 +1393,21 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 <p><a href="https://www.europeandataportal.eu/en/providing-data/goldbook">Open Data Goldbook for Data Managers and Data Holders</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://doc.difi.no/data/veileder-orden-i-eget-hus/">Veileder for orden i eget hus</a></p>
+<p><a href="https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716">Veileder for orden i eget hus</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/">Veileder for beskrivelse av datasett</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.difi.no/rapport/2018/11/deling-av-data-konseptvalgutredning">Difi-rapport 2018:7 Deling av data - KVU</a></p>
+<p><a href="https://data.norge.no/guide/veileder-beskrivelse-av-datasett">Veileder for beskrivelse av datasett, datatjenester og datakataloger</a></p>
 </div>
 <div class="sect2">
 <h3 id="_relevante_standarder_og_spesifikasjoner"><a class="anchor" href="#_relevante_standarder_og_spesifikasjoner"></a>Relevante standarder og spesifikasjoner</h3>
 <div class="paragraph">
-<p><a href="https://doc.difi.no/dcat-ap-no/">Standard for beskrivelse av datasett og datakataloger</a></p>
+<p><a href="https://data.norge.no/specification/dcat-ap-no">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://doc.difi.no/data/kvalitet-pa-datasett/">Spesifikasjon for beskrivelse av kvalitet på datasett</a></p>
+<p><a href="https://data.norge.no/guide/veileder-kvantifiserbar-kvalitet">Veileder for beskrivelse av kvalitet på datasett – kvantifiserbar kvalitet</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://doc.difi.no/data/dcat-ap-no-stotte-til-teknisk-implementering/">Støtte til teknisk implementering av DCAT-AP-NO</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett">Pekere til offentlige ressurser på nett (URI-er)</a></p>
+<p><a href="https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492">Peikarar til offentlege ressursar på nett (URI-er)</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md">Open API-specification</a></p>
@@ -1443,19 +1422,13 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 <p><a href="https://data.norge.no/">Data.norge.no</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://fellesdatakatalog.brreg.no/">Felles datakatalog</a></p>
-</div>
-<div class="paragraph">
 <p><a href="https://www.geonorge.no/">Geonorge.no</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://www.europeandataportal.eu/">EUs åpne data-portal</a></p>
+<p><a href="https://www.europeandataportal.eu/">EUs data-portal</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer ved tilgjengeliggjøring av offentlige data</a></p>
-</div>
-<div class="paragraph">
-<p><a href="https://doc.difi.no/kunnskapsgrunnlag-tilgjengeliggjoring-offentlige-data/">Kunnskapsgrunnlag - økt tilgjengeliggjøring av offentlige data</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://data.norge.no/nlod/no">Norsk lisens for offentlige data</a></p>
@@ -1465,7 +1438,7 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 </div>
 <hr>
 <div class="paragraph">
-<p><strong>Kontakt:</strong> <a href="mailto:opnedata@difi.no">opnedata@difi.no</a></p>
+<p><strong>Kontakt:</strong> <a href="mailto:informasjonsforvaltning@digdir.no">informasjonsforvaltning@digdir.no</a></p>
 </div>
 <!-- Google Analytics -->
 <script>
@@ -1484,7 +1457,7 @@ ga('send', 'pageview');
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2022-09-28 07:36:03 UTC
+Sist oppdatert 2024-01-05 14:03:38 UTC
 </div>
 </div>
 </body>

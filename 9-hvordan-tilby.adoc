@@ -1,7 +1,7 @@
 
 == Hvordan bør jeg tilby data?
 
-Når du skal tilby data, skal du følge regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data]. Disse er gjengitt under, med kommentarer og veiledning. Vi oppdaterer veiledningen fortløpende, så send oss gjerne en epost til mailto:opnedata@difi.no[opnedata@difi.no] om du har spørsmål som ikke besvares her, eller har innspill til rådene vi gir.
+Når du skal tilby data, skal du følge regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data]. Disse er gjengitt under, med kommentarer og veiledning.
 
 === 1. Bruk åpne standardlisenser
 
@@ -113,14 +113,14 @@ God bruk av unike identifikatorer for selve dataelementene øker gjenbruksverdie
 
 URLer kan også fungere fint som identifikatorer gitt at de er unike, permanente og hensiktsmessige. URLer som samtidig er identifikatorer for en ressurs (for eksempel et datasett, begrep eller en opplysning) kaller vi URIer (Uniform Resource Identifier).
 
-Se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[Referansekatalogen for IT-standarde]r for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.
+Se https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480[Referansekatalogen for IT-standarder] for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.
 
 === 12. Publiser oversikt over virksomhetens data
 
 [quote,www.regjeringen.no/id2536870/#punkt_tolv]
 Hvilke data som tilgjengeliggjøres bør være drevet av brukernes behov. For at brukerne skal kunne finne og bruke dine data, må de vite hvilke data du har. Virksomheten bør derfor vedlikeholde og publisere en oversikt over hvilke data de forvalter. Dette gjelder også beskrivelser av datasett som av forskjellige grunner ikke er tilgjengeliggjort.
 
-I https://fellesdatakatalog.brreg.no/[Felles datakatalog] kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] slik at de kan høstes av de nasjonale katalogene.
+På https://data.norge.no/[Data.norge.no] kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)] slik at de kan høstes av de nasjonale katalogene.
 
 === 13. Tilpass data til brukernes behov
 
@@ -129,16 +129,14 @@ Virksomhetene bør tilpasse data slik at brukere enkelt kan ta dem i bruk, for e
 
 Å tilby data er en offentlig tjeneste på lik linje med å tilby en hvilken som helst annen offentlig tjeneste. Prinsippet om “brukeren i sentrum” står sentralt også her. Brukerne i denne sammenhengen er gjerne aktører som skal bruke data i en tjeneste,  beslutningsprosess eller til forskning. Måten vi tilbyr data på kan være helt avgjørende for en god og effektiv bruk.
 
-Difi anbefaler at virksomheten selv bruker den samme datakilden i egne prosesser som du tilbyr til andre fremfor å ha en datakilde til internt bruk og en for eksterne brukere (gitt at opplysningene er de samme).
+Digdir anbefaler at virksomheten selv bruker den samme datakilden i egne prosesser som du tilbyr til andre fremfor å ha en datakilde til internt bruk og en for eksterne brukere (gitt at opplysningene er de samme).
 
 === 14. Oppmuntre til bruk
 
 [quote,www.regjeringen.no/id2536870/#punkt_fjorten]
 Å gjøre data åpent tilgjengelig er ikke nok for at data skal bli brukt. Utgivere bør samhandle med brukerne og aktivt oppmuntre til bruk av deres data.
 
-Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på #Hack4no eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.
-
-Statens vegvesen har http://www.vegdata.no/[en egen blogg], der de tar opp ulike tema knyttet til bruk av Nasjonal vegdatabank. Dette er et godt eksempel på hvordan en kan oppmuntre til bruk av åpne data som virksomheten tilbyr.
+Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på hackathons eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.
 
 === 15. Legg til rette for tilbakemeldinger
 
