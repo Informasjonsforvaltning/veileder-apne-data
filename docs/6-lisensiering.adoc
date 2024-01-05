@@ -43,6 +43,6 @@ NOTE: Vi er spesielt opptatt av strukturerte data i denne veilederen, men alle C
 
 === Hvilke lisens bør jeg velge?
 
-De to lisensene som er anbefalt brukt av Kommunal- og moderniseringsdepartementet er begge navngivelse-lisenser: https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0 (CC 4.0-BY)] og https://data.norge.no/nlod/[Norsk lisens for offentlige data (NLOD)]. Dersom du velger CC 4.0-BY legger du bedre til rette for internasjonal bruk.
+De to lisensene som er anbefalt brukt i regjeringens retningslinjer er begge navngivelse-lisenser: https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0 (CC 4.0-BY)] og https://data.norge.no/nlod/[Norsk lisens for offentlige data (NLOD)]. Dersom du velger CC 4.0-BY legger du bedre til rette for internasjonal bruk.
 
 Du kan også vurdere å bruke Creative Commons Zero (CC0). Du sier da fra deg alle rettigheter til datasettet, inkludert retten til å bli oppgitt som kilde.
