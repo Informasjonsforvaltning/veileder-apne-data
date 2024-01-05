@@ -9,4 +9,4 @@ Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon 
 
 *Røde data* er datasett som krever særskilt rettslig grunnlag for tilgang. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, hjemmel i lov eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).
 
-Se Difis https://doc.difi.no/data/veileder-orden-i-eget-hus/#_vurdering_av_tilgangsniv%C3%A5[Veileder for orden i eget hus] for mer informasjon om trafikklyssystemet.
+Se Difis https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Veileder for orden i eget hus] for mer informasjon om trafikklyssystemet.

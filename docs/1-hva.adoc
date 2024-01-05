@@ -15,7 +15,7 @@ Gode åpne data kjennetegnes ved:
 
 Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.
 
-Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under http://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller http://data.norge.no/nlod/[Norsk lisens for offentlige data] (NLOD).
+Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller https://data.norge.no/nlod/[Norsk lisens for offentlige data] (NLOD).
 
 Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.
 
@@ -41,24 +41,21 @@ Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjern
 
 ****
 
-* [*] Energiselskapet https://www.otovo.no/[Otovo] er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen http://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.
+* [*] Energiselskapet https://www.otovo.no/[Otovo] er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen https://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.
 
-* [*] http://www.framsikt.no/[Framsikt AS] leverer styringssystemer for norske kommuner og lager skreddersydde analyseverktøy i hovedsak basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. For eksempel Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.
+* [*] https://www.framsikt.no/[Framsikt AS] leverer styringssystemer for norske kommuner og lager skreddersydde analyseverktøy i hovedsak basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. For eksempel Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.
 
 * [*] https://www.bt.no/[Bergens Tidende] har laget en egen en varslingstjeneste (bot) som henter data direkte fra ulike kilder og varsler journalistene når bestemte typer hendelser inntreffer i nærheten, for eksempel ved trafikkuhell (åpne data fra Statens vegvesen) eller når en restaurant får anmerkning ved tilsyn (åpne data av Mattilsynet). Tjenesten er til internt bruk, og er et nyttig verktøy for avisens journalister.
 
-* [*] https://www.holderdeord.no/[Holder de ord] er en partipolitisk uavhengig organisasjon som tilbyr en rekke digitale verktøy som gjør det enklere å følge med på norsk politikk. Tjenestene bygger på åpne offentlige data fra blant annet Stortinget.
-
-* [*] I 2017 ble det formidlet 58 millioner elektroniske fakturaer i Norge i https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/ehf-elektronisk-handelsformat[elektronisk handelsformat] (EHF). Dette ga en estimert samfunnsgevinst på 4,2 milliarder (https://www.difi.no/sites/difino/files/difi-rapport_2018_1_program_for_digitale_anskaffelser.pdf#page=13[Difi-rapport 2018:1 s.13]). En av suksesskriteriene for dette var at sikkerheten i transaksjoner ble forbedret ved at https://data.norge.no/data/registerenheten-i-br%C3%B8nn%C3%B8ysund/enhetsregisteret[Enhetsregisteret er tilgjengelig som åpne data].
 ****
 
-Se https://data.norge.no/app[https://data.norge.no/app]  for flere eksempler på bruk av åpne offentlige data.
+Se Datalandsbyen[https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk]  for flere eksempler på bruk av åpne offentlige data.
 
 === Hva er et datasett?
 
 Du kan gjøre data tilgjengelig i form av _datasett_. Et datasett er en samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.
 
-Eksempel: Mattilsynet tilbyr https://data.norge.no/data/mattilsynet/smilefjestilsyn-p%C3%A5-serveringssteder[data om tilsyn med serveringssteder i Norge] (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://data.norge.no/nlod/no[Norsk lisens for offentlige data] (NLOD).
+Eksempel: Mattilsynet tilbyr datasettet https://data.norge.no/datasets/288aa74c-e3d3-492e-9ede-e71503b3bfd9[Smilefjestilsyn på serveringssteder] som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0).
 
 Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data.
 

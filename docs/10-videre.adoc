@@ -3,21 +3,19 @@
 
 https://www.europeandataportal.eu/en/providing-data/goldbook[Open Data Goldbook for Data Managers and Data Holders]
 
-https://doc.difi.no/data/veileder-orden-i-eget-hus/[Veileder for orden i eget hus]
+https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Veileder for orden i eget hus]
 
-https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/[Veileder for beskrivelse av datasett]
+https://data.norge.no/guide/veileder-beskrivelse-av-datasett[Veileder for beskrivelse av datasett]
 
-https://www.difi.no/rapport/2018/11/deling-av-data-konseptvalgutredning[Difi-rapport 2018:7 Deling av data - KVU]
 
 === Relevante standarder og spesifikasjoner
 
-https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger]
+https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett og datakataloger]
 
-https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett]
+https://data.norge.no/guide/veileder-kvantifiserbar-kvalitet[Spesifikasjon for beskrivelse av kvalitet på datasett]
 
-https://doc.difi.no/data/dcat-ap-no-stotte-til-teknisk-implementering/[Støtte til teknisk implementering av DCAT-AP-NO]
 
-https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[Pekere til offentlige ressurser på nett (URI-er)]
+https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492[Pekere til offentlige ressurser på nett (URI-er)]
 
 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md[Open API-specification]
 
@@ -27,19 +25,15 @@ https://semver.org/[Semantic Versioning (Semver)]
 
 https://data.norge.no/[Data.norge.no]
 
-https://fellesdatakatalog.brreg.no/[Felles datakatalog]
-
 https://www.geonorge.no/[Geonorge.no]
 
-https://www.europeandataportal.eu/[EUs åpne data-portal]
+https://www.europeandataportal.eu/[EUs data-portal]
 
 https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data]
-
-https://doc.difi.no/kunnskapsgrunnlag-tilgjengeliggjoring-offentlige-data/[Kunnskapsgrunnlag - økt tilgjengeliggjøring av offentlige data]
 
 https://data.norge.no/nlod/no[Norsk lisens for offentlige data]
 
 https://creativecommons.no/[Creative Commons Norge]
 
 '''
-*Kontakt:* opnedata@difi.no
+*Kontakt:* informasjonsforvaltning@digdir.no
