@@ -5,17 +5,17 @@ https://www.europeandataportal.eu/en/providing-data/goldbook[Open Data Goldbook 
 
 https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Veileder for orden i eget hus]
 
-https://data.norge.no/guide/veileder-beskrivelse-av-datasett[Veileder for beskrivelse av datasett]
+https://data.norge.no/guide/veileder-beskrivelse-av-datasett[Veileder for beskrivelse av datasett, datatjenester og datakataloger]
 
 
 === Relevante standarder og spesifikasjoner
 
-https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett og datakataloger]
+https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)]
 
-https://data.norge.no/guide/veileder-kvantifiserbar-kvalitet[Spesifikasjon for beskrivelse av kvalitet på datasett]
+https://data.norge.no/guide/veileder-kvantifiserbar-kvalitet[Veileder for beskrivelse av kvalitet på datasett – kvantifiserbar kvalitet]
 
 
-https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492[Pekere til offentlige ressurser på nett (URI-er)]
+https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492[Peikarar til offentlege ressursar på nett (URI-er)]
 
 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md[Open API-specification]
 

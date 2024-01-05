@@ -120,7 +120,7 @@ Se https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480[Refera
 [quote,www.regjeringen.no/id2536870/#punkt_tolv]
 Hvilke data som tilgjengeliggjøres bør være drevet av brukernes behov. For at brukerne skal kunne finne og bruke dine data, må de vite hvilke data du har. Virksomheten bør derfor vedlikeholde og publisere en oversikt over hvilke data de forvalter. Dette gjelder også beskrivelser av datasett som av forskjellige grunner ikke er tilgjengeliggjort.
 
-På https://data.norge.no/[Data.norge.no] kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett og datakataloger] slik at de kan høstes av de nasjonale katalogene.
+På https://data.norge.no/[Data.norge.no] kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)] slik at de kan høstes av de nasjonale katalogene.
 
 === 13. Tilpass data til brukernes behov
 
