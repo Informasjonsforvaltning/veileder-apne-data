@@ -16,7 +16,7 @@ include::locale/attributes.adoc[]
 
 //{description}
 
-include::shared/download.adoc[]
+include::download.adoc[]
 
 // :leveloffset: +1
 
@@ -33,4 +33,4 @@ include::11-sjekkliste.adoc[]
 include::10-videre.adoc[]
 
 
-include::shared/stats.adoc[]
+// include::shared/stats.adoc[]
