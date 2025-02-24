@@ -32,5 +32,4 @@ include::9-hvordan-tilby.adoc[]
 include::11-sjekkliste.adoc[]
 include::10-videre.adoc[]
 
-
-// include::shared/stats.adoc[]
+include::shared/analytics.adoc[]
