@@ -1,22 +1,36 @@
 include::locale/attributes.adoc[]
 = Veileder for tilgjengeliggjøring av åpne data
+Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency
 :description: Veileder for tilgjengeliggjøring av åpne data
 :doctype: book
 :docinfo:
 :icons: font
 :toc: left
+ifdef::backend-pdf[:toc: macro]
 :toc-title: Innholdsfortegnelse
 :toclevels: 2
 :sectlinks:
-:title-logo-image: image:images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
+:title-logo-image: image:images/Digdir.png[pdfwidth=30vw]
+
+image::images/Digdir.png[width=50%, pdfwidth=30vw, link=https://digdir.no/]
+
+*Lisens*: https://creativecommons.org/licenses/by/4.0/[CC BY 4.0 &#x29C9;, window="_blank", role="ext-link"] +
+*Status*: Gjeldende +
+*Oppdatert*: 2025-08-25 
+
+
+include::download.adoc[]
+
+NOTE: *Innmelding av feil og mangler:* +
+Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/veileder-apne-data/issues[Github Issues &#x29C9;, window="_blank", role="ext-link"]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+
+toc::[]
 
 //:sectnums:
 
 //:sectnumlevels: 3
 
 //{description}
-
-include::download.adoc[]
 
 // :leveloffset: +1
 
