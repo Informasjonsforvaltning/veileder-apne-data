@@ -12,7 +12,7 @@ Data som tilbys skal ha klare vilkår for hvordan de kan brukes. Vilkårene skal
 
 I tillegg til NLOD og CC-BY 4.0 kan du som eier og utgiver av data velge å dedikere datasett til det fri ved å bruke Creative Commons Zero (CC0). CC0 er en fullstendig fraskrivelse av dine retter som rettighetshaver, og brukerne kan bruke data fritt uten å oppgi kilde. CC0 er anbefalt av EU-kommisjonen.
 
-Når du registrerer datasett på data.norge.no, Felles datakatalog eller Geonorge.no er angivelse av lisens ivaretatt i registreringsskjemaet. Dersom du har en lokal datakatalog som de nasjonale katalogene skal høste datasettbeskrivelser fra, må lisensen angis i tråd med https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger]
+Når du registrerer datasett på data.norge.no, Felles datakatalog eller Geonorge.no er angivelse av lisens ivaretatt i registreringsskjemaet. Dersom du har en lokal datakatalog som de nasjonale katalogene skal høste datasettbeskrivelser fra, må lisensen angis i tråd med https://data.norge.no/specification/dcat-ap-no/[Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)]
 
 Dersom du har en egen nettside som omtaler virksomhetens åpne datasett, bør lisensen omtales også der, for eksempel slik:
 
