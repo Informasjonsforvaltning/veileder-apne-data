@@ -50,4 +50,4 @@ jobs:
           files: |
             docs/index.html text/html nb
             docs/files/veileder-apne-data.pdf application/pdf nb files/veileder-apne-data.pdf
-            docs/images/digitaliseringsdirektoratet.png image/png nb images/digitaliseringsdirektoratet.png
+            docs/images/Digdir.png image/png nb images/Digdir.png
