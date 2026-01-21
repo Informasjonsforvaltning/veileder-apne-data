@@ -15,7 +15,7 @@ Gode åpne data kjennetegnes ved:
 
 Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.
 
-Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller https://data.norge.no/nlod/[Norsk lisens for offentlige data] (NLOD).
+Når andre skal bruke data fra deg, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Digdir anbefaler offentlig sektor å lisensiere åpne data under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller angi fri bruk ved hjelp av https://creativecommons.org/public-domain/cc0/[CC0]. For datasett med antatt internasjonal bruk er CC0 å foretrekke. 
 
 Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.
 
