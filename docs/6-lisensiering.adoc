@@ -32,17 +32,11 @@ En åpen lisens er en generell avtale mellom deg som datatilbyder og brukerne av
 
 *“Public domain”-lisenser* har ingen restriksjoner og innebærer en fraskrivelse av alle rettene du har til data. Det beste eksemplet på en “public domain”-lisens er  https://creativecommons.org/share-your-work/public-domain/cc0/[Creative Commons Zero] (CC0).
 
-*Navngivelse lisenser* krever at brukerne må oppgi deg (din virksomhet) som kilde i sitt produkt. Eksempler her er  https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0 (CC 4.0-BY)] og https://data.norge.no/nlod/[Norsk lisens for offentlige data (NLOD)].
+*Navngivelse lisenser* krever at brukerne må oppgi deg (din virksomhet) som kilde i sitt produkt. Anbefalt navngivelse-lisens er  https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0 (CC 4.0-BY)]
 
-*Navngivelse - del på samme vilkår.* En slik lisens krever at brukerne deler sitt produkt under de samme vilkår som originalen. I Norge er ikke lisenser av denne typen anbefalt for data fra offentlig sektor, ettersom de begrenser mulighetene for kommersiell bruk i for stor grad. I noen tilfeller _kan_ en slik lisens likevel være et alternativ, for eksempel når bidragsytere ønsker å begrense mulighetene for kommersiell bruk i forbindelse med at +
-offentlige data berikes med data som samles inn på dugnad (crowdsourcing). 
+*Navngivelse - del på samme vilkår.* En slik lisens krever at brukerne deler sitt produkt under de samme vilkår som originalen. I Norge er ikke lisenser av denne typen anbefalt for data fra offentlig sektor, ettersom de begrenser mulighetene for kommersiell bruk i for stor grad. I noen tilfeller _kan_ en slik lisens likevel være et alternativ, for eksempel når bidragsytere ønsker å begrense mulighetene for kommersiell bruk i forbindelse med at offentlige data berikes med data som samles inn på dugnad (crowdsourcing). 
 
 Øvrige lisenser som ikke tillater kommersiell bruk, regnes ikke som åpne lisenser i denne sammenhengen.
 
-NOTE: Vi er spesielt opptatt av strukturerte data i denne veilederen, men alle Creative Commons 4.0-lisenser dekker andre typer innhold med opphavsrett som tekst, video og bilder. NLOD-lisensen dekker kun strukturerte data. 
-
 === Hvilke lisens bør jeg velge?
-
-De to lisensene som er anbefalt brukt i regjeringens retningslinjer er begge navngivelse-lisenser: https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0 (CC 4.0-BY)] og https://data.norge.no/nlod/[Norsk lisens for offentlige data (NLOD)]. Dersom du velger CC 4.0-BY legger du bedre til rette for internasjonal bruk.
-
-Du kan også vurdere å bruke Creative Commons Zero (CC0). Du sier da fra deg alle rettigheter til datasettet, inkludert retten til å bli oppgitt som kilde.
+NOTE: I tråd med anbefalingene i https://www.regjeringen.no/no/dokumenter/nou-2024-14/id3046520/[NOU 2024: 14 Med lov skal data deles] anbefaler Digitaliseringsdirektoratet offentlige virksomheter å lisensiere åpne data med CC0 eller CC 4.0-BY. Dette betyr at Norsk lisens for offentlige data (NLOD) ikke lenger er anbefalt brukt. Data som allerede er lisensiert under NLOD reguleres fortsatt av vilkårene i lisensen, men bør byttes ut med CC0 eller CC 4.0-BY.
