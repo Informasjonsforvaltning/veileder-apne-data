@@ -1,12 +1,12 @@
 
 == Klassifisering av datasett - trafikklyssystemet
 
-Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon i tre tilgangsnivå: _offentlig_ (grønne data), _begrenset offentlighet_ (gule data) og _unntatt offentlighet_ (røde data). 
+Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon i tre tilgangsnivå: _allmenn tilgang_ (grønne data), _betinget tilgang_ (gule data) og _ikke-allmenn tilgang_ (røde data). 
 
-*Grønne data* er data som kan gjøres gratis tilgjengelig som åpne data. Offentleglovas hovedregel gjelder, og ingen unntakshjemler kommer til anvendelse. Kategorien omfatter også løsninger for tilgang som krever brukeregistrering og API-nøkler, så lenge alle kan få tilgang til de fysiske dataene.
+*Grønne data* er data som hvem som helst kan få tilgang til. Tillatte hindringer inkluderer brukerregistrering og forespørsel om API-nøkler, så lenge alle kan få slik registrering og/eller API-nøkler. "Grønne data" som er tilgjengelig for alle og har en åpen lisens, er åpne data.
 
-*Gule data* er datasett som _ikke_ kan gjøres åpent tilgjengelig for alle. Datasettet inneholder opplysninger som medfører at det må gjøres en vurdering (saksbehandling) før tilgang eventuelt kan gis. Årsakene til skjerming kan for eksempel være at datasettet inneholder personopplysninger eller er omfattet av tredjeparts opphavsrett.
+*Gule data* er data der tilgang som kun kan fås under visse betingelser bestemt av eieren eller tilbyderen. Eksempler på betingelser kan være betaling eller å inngå fortrolighetsavtale. Kategorien inkluderer også data som ennå ikke er kategorisert som allmenn tilgang eller ikke-allmenn tilgang.
 
-*Røde data* er datasett som krever særskilt rettslig grunnlag for tilgang. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, hjemmel i lov eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).
+*Røde data* er data der som ikke hvem som helst kan få tilgang til, som følge av lovregulerte begrensninger knyttet til sikkerhet, personvern eller lignende. Denne kategorien inkluderer alminnelige personopplysninger, sensitive personopplysninger, taushetsbelagte data og data som har betydning for rikets sikkerhet.
 
-Se Digdirs https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Veileder for orden i eget hus] for mer informasjon om trafikklyssystemet.
+Se Digdirs https://www.digdir.no/2716[Veileder for orden i eget hus] for mer informasjon om trafikklyssystemet.
