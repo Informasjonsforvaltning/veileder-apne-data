@@ -7,7 +7,7 @@ Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering o
 
 Regjeringens føringer for deling av åpne offentlige data er regulert i https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova[Lov om rett til innsyn i dokument i offentleg verksemd] (offentleglova),  https://www.regjeringen.no/id3103320/[Digitaliseringsrundskrivet] og regjeringens https://www.regjeringen.no/no/id2536870[Retningslinjer ved tilgjengeliggjøring av offentlige data]
 
-NOTE: En ny lov for deling av data - "Datadelingsloven" er foreslått. Den er ment å erstatte viderebruksbestemmelsene for data i Offentleglova og implementere EUs Åpne data-direktiv i norsk lovgivning. Samtidig er det foreslått en ny lov om dataforvaltning for å gjennomføre EUs «dataforvaltningsforordning» (Data Governance Act – DGA). Offentleglova er gjeldende lov på området inntil nytt lovverk er vedtatt.
+TIP:: En ny lov for deling av data - "Datadelingsloven" er foreslått. Den er ment å erstatte viderebruksbestemmelsene for data i Offentleglova og implementere EUs Åpne data-direktiv i norsk lovgivning. Samtidig er det foreslått en ny lov om dataforvaltning for å gjennomføre EUs «dataforvaltningsforordning» (Data Governance Act – DGA). Offentleglova er gjeldende lov på området inntil nytt lovverk er vedtatt.
 
 === Offentleglova
 
@@ -25,7 +25,7 @@ Offentleglova gir altså allmennheten innsynsrett, det vil si at informasjon vil
 
 Digitaliseringsrundskrivet gjelder for departementene, statens ordinære forvaltningsorganer, forvaltningsorganer med særskilte fullmakter og forvaltningsbedrifter.
 
-Rundskrivet slår fast at den enkelte virksomhet skal ha tilstrekkelig oversikt over hvilke data den håndterer, hva de betyr og hva de kan brukes til. Dette innebærer at forvaltningen må ta stilling til hvilke data som kan gjøres tilgjengelig som åpne offentlige data. 
+Rundskrivet slår fast at den enkelte virksomhet skal ha tilstrekkelig oversikt over hvilke data den håndterer, hva de betyr og hva de kan brukes til. Dette innebærer at forvaltningen må ta stilling til hvilke data som kan gjøres tilgjengelig som åpne offentlige data.
 
 Rundskrivet slår også fast at tilgjengeliggjøring av data skal skje i samsvar med regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data] og viderebruksbestemmelsene i offentleglova.
 
