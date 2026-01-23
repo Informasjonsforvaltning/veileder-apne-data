@@ -16,7 +16,7 @@ image::images/Digdir.png[width=50%, pdfwidth=30vw, link=https://digdir.no/]
 
 *Lisens*: https://creativecommons.org/licenses/by/4.0/[CC BY 4.0 &#x29C9;, window="_blank", role="ext-link"] +
 *Status*: Gjeldende +
-*Oppdatert*: 2025-08-25 
+*Oppdatert*: 2026-01-23
 
 
 include::download.adoc[]
