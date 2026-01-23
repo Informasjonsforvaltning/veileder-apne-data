@@ -23,7 +23,7 @@ Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gr
 
 Offentlige virksomheter produserer store mengder data i sin saksbehandling og myndighetsutøvelse. Denne informasjonen er en viktig ressurs som kan utnyttes mer enn den gjør i dag.
 
-Det er det tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
+Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
 
 *Effektivisering og innovasjon:* Å dele data på tvers av offentlig sektor kan bidra til effektivisering og innovasjon. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester.
 
