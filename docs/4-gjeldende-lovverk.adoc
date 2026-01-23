@@ -7,7 +7,7 @@ Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering o
 
 Regjeringens føringer for deling av åpne offentlige data er regulert i https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova[Lov om rett til innsyn i dokument i offentleg verksemd] (offentleglova),  https://www.regjeringen.no/id3103320/[Digitaliseringsrundskrivet] og regjeringens https://www.regjeringen.no/no/id2536870[Retningslinjer ved tilgjengeliggjøring av offentlige data]
 
-TIP:: En ny lov for deling av data - "Datadelingsloven" er foreslått. Den er ment å erstatte viderebruksbestemmelsene for data i Offentleglova og implementere EUs Åpne data-direktiv i norsk lovgivning. Samtidig er det foreslått en ny lov om dataforvaltning for å gjennomføre EUs «dataforvaltningsforordning» (Data Governance Act – DGA). Offentleglova er gjeldende lov på området inntil nytt lovverk er vedtatt.
+NOTE: En ny lov for deling av data - "Datadelingsloven" er foreslått. Den er ment å erstatte viderebruksbestemmelsene for data i Offentleglova og implementere EUs Åpne data-direktiv i norsk lovgivning. Samtidig er det foreslått en ny lov om dataforvaltning for å gjennomføre EUs «dataforvaltningsforordning» (Data Governance Act – DGA). Offentleglova er gjeldende lov på området inntil nytt lovverk er vedtatt.
 
 === Offentleglova
 
