@@ -37,7 +37,7 @@ Merk at betalingssatser med opplysninger om hva avgiften dekker skal være offen
 Data skal i utgangspunktet gjøres tilgjengelig uten at brukeren må søke om tillatelse eller registrere seg. I tråd med bestemmelsene i offentlighetsloven skal data kunne benyttes hvor som helst, av hvem som helst, og til ethvert formål. Brukere bør samtidig oppmuntres til å oppgi kontaktinformasjon, slik at utgiveren kan varsle brukerne for eksempel ved endringer eller driftsavbrudd.
 
 
-Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og tar selv risikoen ved å ikke gjøre det. http://data.stortinget.no/[De åpne data-tjenestene til Stortinget] er et godt eksempel på bruk av frivillig registrering. Alternativt vil en fast adresse i form av en nettside, RSS-strøm og/eller en sosiale medier-konto der driftsmeldinger og øvrige meldinger publiseres, være et godt alternativ til å be brukerne oppgi kontaktinformasjon. 
+Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og tar selv risikoen ved å ikke gjøre det. http://data.stortinget.no/[De åpne data-tjenestene til Stortinget] er et godt eksempel på bruk av frivillig registrering. Alternativt vil en fast adresse i form av en nettside, RSS-strøm og/eller en SOME-konto der driftsmeldinger og øvrige meldinger publiseres, være et godt alternativ til å be brukerne oppgi kontaktinformasjon.
 
 
 === 4. Dokumenter datasettene
