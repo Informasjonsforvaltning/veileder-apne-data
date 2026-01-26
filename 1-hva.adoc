@@ -15,7 +15,7 @@ Gode åpne data kjennetegnes ved:
 
 Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.
 
-Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller https://data.norge.no/nlod/[Norsk lisens for offentlige data] (NLOD).
+Når andre skal bruke data fra deg, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Digdir anbefaler offentlig sektor å lisensiere åpne data under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller angi fri bruk ved hjelp av https://creativecommons.org/public-domain/cc0/[CC0]. For datasett med antatt internasjonal bruk er CC0 å foretrekke. 
 
 Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.
 
@@ -23,7 +23,7 @@ Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gr
 
 Offentlige virksomheter produserer store mengder data i sin saksbehandling og myndighetsutøvelse. Denne informasjonen er en viktig ressurs som kan utnyttes mer enn den gjør i dag.
 
-I følge https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda for Norge] er det tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
+Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
 
 *Effektivisering og innovasjon:* Å dele data på tvers av offentlig sektor kan bidra til effektivisering og innovasjon. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester.
 
@@ -49,7 +49,7 @@ Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjern
 
 ****
 
-Se https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk[Datalandsbyen] for flere eksempler på bruk av åpne offentlige data.
+Se https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk[Datalandsbyen] og https://data.europa.eu/en/publications/datastories[Data.europa.eu "Data stories"-sider] for flere eksempler på bruk av åpne offentlige data.
 
 === Hva er et datasett?
 
@@ -57,7 +57,7 @@ Du kan gjøre data tilgjengelig i form av _datasett_. Et datasett er en samling 
 
 Eksempel: Mattilsynet tilbyr datasettet https://data.norge.no/datasets/288aa74c-e3d3-492e-9ede-e71503b3bfd9[Smilefjestilsyn på serveringssteder] som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0).
 
-Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data.
+Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data. Se https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Veileder for Orden i eget hus] for å lære mer om hvordan du kan organisere arbeidet med å kartlegge og forvalte data internt i virksomheten.
 
 Her er noen eksempler på ulike typer datasett:
 

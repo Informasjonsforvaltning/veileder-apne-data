@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="description" content="Veileder for tilgjengeliggjøring av åpne data">
 <meta name="author" content="Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency">
 <title>Veileder for tilgjengeliggjøring av åpne data</title>
@@ -118,7 +118,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -221,6 +220,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -462,7 +462,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_klassifisering_av_datasett_trafikklyssystemet">Klassifisering av datasett - trafikklyssystemet</a></li>
 <li><a href="#_usikkerhet_rundt_åpning_av_data">Usikkerhet rundt åpning av data</a></li>
-<li><a href="#_gjeldende_lovverk_og_ikt_politikk_for_åpne_offentlige_data">Gjeldende lovverk og IKT-politikk for åpne offentlige data</a>
+<li><a href="#_gjeldende_lovverk_og_it_politikk_for_åpne_offentlige_data">Gjeldende lovverk og IT-politikk for åpne offentlige data</a>
 <ul class="sectlevel2">
 <li><a href="#_offentleglova">Offentleglova</a></li>
 <li><a href="#_digitaliseringsrundskrivet">Digitaliseringsrundskrivet</a></li>
@@ -474,10 +474,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_hva_er_åpne_lisenser">Hva er åpne lisenser?</a></li>
 <li><a href="#_hvilke_lisens_bør_jeg_velge">Hvilke lisens bør jeg velge?</a></li>
-</ul>
-</li>
-<li><a href="#_hvordan_kommer_jeg_i_gang">Hvordan kommer jeg i gang?</a>
-<ul class="sectlevel2">
 <li><a href="#_hvilke_datasett_har_jeg">Hvilke datasett har jeg?</a></li>
 <li><a href="#_hvilke_datasett_bør_jeg_tilby_først">Hvilke datasett bør jeg tilby først?</a></li>
 </ul>
@@ -505,7 +501,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_videre_lesning">Videre lesning</a>
 <ul class="sectlevel2">
 <li><a href="#_relevante_standarder_og_spesifikasjoner">Relevante standarder og spesifikasjoner</a></li>
-<li><a href="#_andre_relevante_lenker">Andre relevante lenker:</a></li>
+<li><a href="#_andre_relevante_lenker">Andre relevante lenker</a></li>
 </ul>
 </li>
 </ul>
@@ -522,7 +518,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p><strong>Lisens</strong>: <a href="https://creativecommons.org/licenses/by/4.0/" class="ext-link" target="_blank" rel="noopener">CC BY 4.0 &#x29C9;</a><br>
 <strong>Status</strong>: Gjeldende<br>
-<strong>Oppdatert</strong>: 2025-08-25</p>
+<strong>Oppdatert</strong>: 2026-01-23</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -597,7 +593,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p>Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.</p>
 </div>
 <div class="paragraph">
-<p>Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0</a> (CC BY 4.0) eller <a href="https://data.norge.no/nlod/">Norsk lisens for offentlige data</a> (NLOD).</p>
+<p>Når andre skal bruke data fra deg, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Digdir anbefaler offentlig sektor å lisensiere åpne data under <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0</a> (CC BY 4.0) eller angi fri bruk ved hjelp av <a href="https://creativecommons.org/public-domain/cc0/">CC0</a>. For datasett med antatt internasjonal bruk er CC0 å foretrekke.</p>
 </div>
 <div class="paragraph">
 <p>Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.</p>
@@ -608,7 +604,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p>Offentlige virksomheter produserer store mengder data i sin saksbehandling og myndighetsutøvelse. Denne informasjonen er en viktig ressurs som kan utnyttes mer enn den gjør i dag.</p>
 </div>
 <div class="paragraph">
-<p>I følge <a href="https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/">Digital agenda for Norge</a> er det tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:</p>
+<p>Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:</p>
 </div>
 <div class="paragraph">
 <p><strong>Effektivisering og innovasjon:</strong> Å dele data på tvers av offentlig sektor kan bidra til effektivisering og innovasjon. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester.</p>
@@ -647,7 +643,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 <div class="paragraph">
-<p>Se <a href="https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk">Datalandsbyen</a> for flere eksempler på bruk av åpne offentlige data.</p>
+<p>Se <a href="https://datalandsbyen.norge.no/category/2/gode-eksempler-p%C3%A5-bruk">Datalandsbyen</a> og <a href="https://data.europa.eu/en/publications/datastories">Data.europa.eu "Data stories"-sider</a> for flere eksempler på bruk av åpne offentlige data.</p>
 </div>
 </div>
 <div class="sect2">
@@ -659,7 +655,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p>Eksempel: Mattilsynet tilbyr datasettet <a href="https://data.norge.no/datasets/288aa74c-e3d3-492e-9ede-e71503b3bfd9">Smilefjestilsyn på serveringssteder</a> som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0</a> (CC BY 4.0).</p>
 </div>
 <div class="paragraph">
-<p>Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data.</p>
+<p>Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data. Se <a href="https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716">Veileder for Orden i eget hus</a> for å lære mer om hvordan du kan organisere arbeidet med å kartlegge og forvalte data internt i virksomheten.</p>
 </div>
 <div class="paragraph">
 <p>Her er noen eksempler på ulike typer datasett:</p>
@@ -770,19 +766,19 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <h2 id="_klassifisering_av_datasett_trafikklyssystemet"><a class="link" href="#_klassifisering_av_datasett_trafikklyssystemet">Klassifisering av datasett - trafikklyssystemet</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon i tre tilgangsnivå: <em>offentlig</em> (grønne data), <em>begrenset offentlighet</em> (gule data) og <em>unntatt offentlighet</em> (røde data).</p>
+<p>Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon i tre tilgangsnivå: <em>allmenn tilgang</em> (grønne data), <em>betinget tilgang</em> (gule data) og <em>ikke-allmenn tilgang</em> (røde data).</p>
 </div>
 <div class="paragraph">
-<p><strong>Grønne data</strong> er data som kan gjøres gratis tilgjengelig som åpne data. Offentleglovas hovedregel gjelder, og ingen unntakshjemler kommer til anvendelse. Kategorien omfatter også løsninger for tilgang som krever brukeregistrering og API-nøkler, så lenge alle kan få tilgang til de fysiske dataene.</p>
+<p><strong>Grønne data</strong> er data som hvem som helst kan få tilgang til. Tillatte hindringer inkluderer brukerregistrering og forespørsel om API-nøkler, så lenge alle kan få slik registrering og/eller API-nøkler. "Grønne data" som er tilgjengelig for alle og har en åpen lisens, er åpne data.</p>
 </div>
 <div class="paragraph">
-<p><strong>Gule data</strong> er datasett som <em>ikke</em> kan gjøres åpent tilgjengelig for alle. Datasettet inneholder opplysninger som medfører at det må gjøres en vurdering (saksbehandling) før tilgang eventuelt kan gis. Årsakene til skjerming kan for eksempel være at datasettet inneholder personopplysninger eller er omfattet av tredjeparts opphavsrett.</p>
+<p><strong>Gule data</strong> er data der tilgang som kun kan fås under visse betingelser bestemt av eieren eller tilbyderen. Eksempler på betingelser kan være betaling eller å inngå fortrolighetsavtale. Kategorien inkluderer også data som ennå ikke er kategorisert som allmenn tilgang eller ikke-allmenn tilgang.</p>
 </div>
 <div class="paragraph">
-<p><strong>Røde data</strong> er datasett som krever særskilt rettslig grunnlag for tilgang. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, hjemmel i lov eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).</p>
+<p><strong>Røde data</strong> er data der som ikke hvem som helst kan få tilgang til, som følge av lovregulerte begrensninger knyttet til sikkerhet, personvern eller lignende. Denne kategorien inkluderer alminnelige personopplysninger, sensitive personopplysninger, taushetsbelagte data og data som har betydning for rikets sikkerhet.</p>
 </div>
 <div class="paragraph">
-<p>Se Digdirs <a href="https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716">Veileder for orden i eget hus</a> for mer informasjon om trafikklyssystemet.</p>
+<p>Se Digdirs <a href="https://www.digdir.no/2716">Veileder for orden i eget hus</a> for mer informasjon om trafikklyssystemet.</p>
 </div>
 </div>
 </div>
@@ -827,16 +823,28 @@ Det kan være fristende å vente med publisering av åpne data til en har oversi
 </div>
 </div>
 <div class="sect1">
-<h2 id="_gjeldende_lovverk_og_ikt_politikk_for_åpne_offentlige_data"><a class="link" href="#_gjeldende_lovverk_og_ikt_politikk_for_åpne_offentlige_data">Gjeldende lovverk og IKT-politikk for åpne offentlige data</a></h2>
+<h2 id="_gjeldende_lovverk_og_it_politikk_for_åpne_offentlige_data"><a class="link" href="#_gjeldende_lovverk_og_it_politikk_for_åpne_offentlige_data">Gjeldende lovverk og IT-politikk for åpne offentlige data</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Statens IKT-politikk for tilgjengeliggjøring av offentlige data er beskrevet i <a href="https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/">Digital agenda for Norge</a> som <em>gjenbruk</em> og <em>viderebruk</em>, der <em>gjenbruk</em> er offentlige virksomheters bruk av offentlige data (kapittel 7), mens <em>viderebruk</em> er privat sektors og sivilsamfunnets bruk av offentlige data (kapittel 14).</p>
+<p>Statens IT-politikk for tilgjengeliggjøring av offentlige data er beskrevet i <a href="https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/">Digital agenda for Norge</a> og <a href="https://www.regjeringen.no/no/dokumenter/meld.-st.-22-20202021/id2841118/">Data ressurs - Datadrevet økonomi og innovasjon</a> som <em>gjenbruk</em> og <em>viderebruk</em>, der <em>gjenbruk</em> er offentlige virksomheters bruk av offentlige data, mens <em>viderebruk</em> er privat sektors og sivilsamfunnets bruk av offentlige data.</p>
 </div>
 <div class="paragraph">
-<p>Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering og innovasjon, næringsutvikling og et åpent og demokratisk samfunn. Stortingsmeldingen trekker frem fem sektorer hvor viderebruk anses som samfunnsøkonomisk verdifulle: kultur, forskning og utdanning, statlige utgifter, transport og samferdsel og kart og eiendom (Geodata).</p>
+<p>Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering og innovasjon, næringsutvikling og et åpent og demokratisk samfunn.</p>
 </div>
 <div class="paragraph">
-<p>Regjeringens føringer for deling av åpne offentlige data er regulert i <a href="https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova">Lov om rett til innsyn i dokument i offentleg verksemd</a> (offentleglova),  <a href="https://www.regjeringen.no/id2569983/">Digitaliseringsrundskrivet</a> og regjeringens <a href="https://www.regjeringen.no/no/id2536870">Retningslinjer ved tilgjengeliggjøring av offentlige data</a></p>
+<p>Regjeringens føringer for deling av åpne offentlige data er regulert i <a href="https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova">Lov om rett til innsyn i dokument i offentleg verksemd</a> (offentleglova),  <a href="https://www.regjeringen.no/id3103320/">Digitaliseringsrundskrivet</a> og regjeringens <a href="https://www.regjeringen.no/no/id2536870">Retningslinjer ved tilgjengeliggjøring av offentlige data</a></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Merk"></i>
+</td>
+<td class="content">
+En ny lov for deling av data - "Datadelingsloven" er foreslått. Den er ment å erstatte viderebruksbestemmelsene for data i Offentleglova og implementere EUs Åpne data-direktiv i norsk lovgivning. Samtidig er det foreslått en ny lov om dataforvaltning for å gjennomføre EUs «dataforvaltningsforordning» (Data Governance Act – DGA). Offentleglova er gjeldende lov på området inntil nytt lovverk er vedtatt.
+</td>
+</tr>
+</table>
 </div>
 <div class="sect2">
 <h3 id="_offentleglova"><a class="link" href="#_offentleglova">Offentleglova</a></h3>
@@ -862,10 +870,10 @@ Det kan være fristende å vente med publisering av åpne data til en har oversi
 <p>Digitaliseringsrundskrivet gjelder for departementene, statens ordinære forvaltningsorganer, forvaltningsorganer med særskilte fullmakter og forvaltningsbedrifter.</p>
 </div>
 <div class="paragraph">
-<p>Rundskrivet slår fast at den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem. Dette innebærer altså at forvaltningen må ta stilling til hvilke data som kan gjøres tilgjengelig som åpne offentlige data, og ta stilling til hvilke data som skal prioriteres først, for eksempel etterspurte eller samfunnsviktige data andre ikke har.</p>
+<p>Rundskrivet slår fast at den enkelte virksomhet skal ha tilstrekkelig oversikt over hvilke data den håndterer, hva de betyr og hva de kan brukes til. Dette innebærer at forvaltningen må ta stilling til hvilke data som kan gjøres tilgjengelig som åpne offentlige data.</p>
 </div>
 <div class="paragraph">
-<p>Rundskrivet (punkt 1.3) slår også fast at virksomheten skal “gjøre egnet informasjon tilgjengelig for viderebruk i maskinlesbare formater, fortrinnsvis gjennom APIer”. Dette gjelder når virksomhetene etablerer nye eller oppgraderer eksisterende fagsystemer. Videre pekes det på at tilgjengeliggjøring av data skal skje i samsvar med regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer ved tilgjengeliggjøring av offentlige data</a> og viderebruksbestemmelsene i offentleglova.</p>
+<p>Rundskrivet slår også fast at tilgjengeliggjøring av data skal skje i samsvar med regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer ved tilgjengeliggjøring av offentlige data</a> og viderebruksbestemmelsene i offentleglova.</p>
 </div>
 </div>
 <div class="sect2">
@@ -884,6 +892,9 @@ Det kan være fristende å vente med publisering av åpne data til en har oversi
 </div>
 <div class="paragraph">
 <p>EUs Åpne data direktiv - (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L1024">"ODD-direktivet"</a>) utgjør det lovmessige rammeverket for tilgang til offentlige data i EU og EØS. Direktivet bygger på to av grunnpilarene i EUs indre marked: transparens og rettferdig konkurranse. I tillegg ønsker EU-kommisjonen å sikre en mer effektiv utnyttelse av denne typen innhold over landegrensene.</p>
+</div>
+<div class="paragraph">
+<p>EUs Åpne data-direktiv definerer også (gjennom den tilhørende <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=pi_com%3AC%282022%299562">HVD-forordningen</a>) <em>datasett med høy verdi</em> (High Value Datasets - HVD) innenfor seks tematiske kategorier: (1) geodata, (2) jordobservasjon og miljø, (3) meteorologi, (4) statistikk, (5) selskaper og eierskap, og (6) mobilitet.  HVD-forordningen stiller krav til at en rekke datasett i disse kategoriene skal gjøres tilgjengelige som åpne data, i maskinlesbare formater og via API-er. Det stilles også egne krav til beskrivelser (metadata) for HVD-ene, se Referansekatalogen for IT-standarder (<a href="https://www.digdir.no/1480">Referansekatalogen for IT-standarder</a>) for mer informasjon.</p>
 </div>
 <div class="paragraph">
 <p>EU-kommisjonen finansierer en rekke åpne data-prosjekter, inkludert en europeisk dataportal, gjennom (<a href="https://www.digdir.no/internasjonalt-arbeid/digital-europa-programmet-digital-europe-programme/3192">DIGITAL Europa-programmet</a>). Midler for finansiering av digitaliseringsprosjekter under DIGITAL Europa-programmet lyses ut flere ganger i året. Både offentlige og private virksomheter kan søke om midler. Kontakt gjerne Digdir om du ønsker mer informasjon om finansieringsmuligheter i DIGITAL-programmet.</p>
@@ -961,15 +972,17 @@ Du kan bare lisensiere informasjon som virksomheten selv har rettighetene til, e
 <p><strong>“Public domain”-lisenser</strong> har ingen restriksjoner og innebærer en fraskrivelse av alle rettene du har til data. Det beste eksemplet på en “public domain”-lisens er  <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">Creative Commons Zero</a> (CC0).</p>
 </div>
 <div class="paragraph">
-<p><strong>Navngivelse lisenser</strong> krever at brukerne må oppgi deg (din virksomhet) som kilde i sitt produkt. Eksempler her er  <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0 (CC 4.0-BY)</a> og <a href="https://data.norge.no/nlod/">Norsk lisens for offentlige data (NLOD)</a>.</p>
+<p><strong>Navngivelse lisenser</strong> krever at brukerne må oppgi deg (din virksomhet) som kilde i sitt produkt. Anbefalt navngivelse-lisens er  <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0 (CC 4.0-BY)</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Navngivelse - del på samme vilkår.</strong> En slik lisens krever at brukerne deler sitt produkt under de samme vilkår som originalen. I Norge er ikke lisenser av denne typen anbefalt for data fra offentlig sektor, ettersom de begrenser mulighetene for kommersiell bruk i for stor grad. I noen tilfeller <em>kan</em> en slik lisens likevel være et alternativ, for eksempel når bidragsytere ønsker å begrense mulighetene for kommersiell bruk i forbindelse med at<br>
-offentlige data berikes med data som samles inn på dugnad (crowdsourcing).</p>
+<p><strong>Navngivelse - del på samme vilkår.</strong> En slik lisens krever at brukerne deler sitt produkt under de samme vilkår som originalen. I Norge er ikke lisenser av denne typen anbefalt for data fra offentlig sektor, ettersom de begrenser mulighetene for kommersiell bruk i for stor grad. I noen tilfeller <em>kan</em> en slik lisens likevel være et alternativ, for eksempel når bidragsytere ønsker å begrense mulighetene for kommersiell bruk i forbindelse med at offentlige data berikes med data som samles inn på dugnad (crowdsourcing).</p>
 </div>
 <div class="paragraph">
 <p>Øvrige lisenser som ikke tillater kommersiell bruk, regnes ikke som åpne lisenser i denne sammenhengen.</p>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_hvilke_lisens_bør_jeg_velge"><a class="link" href="#_hvilke_lisens_bør_jeg_velge">Hvilke lisens bør jeg velge?</a></h3>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -977,48 +990,42 @@ offentlige data berikes med data som samles inn på dugnad (crowdsourcing).</p>
 <i class="fa icon-note" title="Merk"></i>
 </td>
 <td class="content">
-Vi er spesielt opptatt av strukturerte data i denne veilederen, men alle Creative Commons 4.0-lisenser dekker andre typer innhold med opphavsrett som tekst, video og bilder. NLOD-lisensen dekker kun strukturerte data.
+Gjeldende retningslinjer for tilgjengeliggjøring av offentlige data inkluderer en anbefaling om bruk av Norsk lisens for offentlige data (NLOD). I lys av anbefalingene i <a href="https://www.regjeringen.no/no/dokumenter/nou-2024-14/id3046520/">NOU 2024: 14 Med lov skal data deles</a> anbefaler imidlertid Digdir nå at offentlige virksomheter lisensierer åpne data med CC0 eller CC BY 4.0.
 </td>
 </tr>
 </table>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_hvilke_lisens_bør_jeg_velge"><a class="link" href="#_hvilke_lisens_bør_jeg_velge">Hvilke lisens bør jeg velge?</a></h3>
 <div class="paragraph">
-<p>De to lisensene som er anbefalt brukt i regjeringens retningslinjer er begge navngivelse-lisenser: <a href="https://creativecommons.org/licenses/by/4.0/deed.no">Creative Commons Navngivelse 4.0 (CC 4.0-BY)</a> og <a href="https://data.norge.no/nlod/">Norsk lisens for offentlige data (NLOD)</a>. Dersom du velger CC 4.0-BY legger du bedre til rette for internasjonal bruk.</p>
+<p>Dette innebærer at NLOD ikke lenger er Digdirs anbefalte lisens for nye åpne datasett. Datasett som allerede er lisensiert under NLOD reguleres fortsatt av vilkårene i denne lisensen, men Digitaliseringsdirektoratet anbefaler at slike datasett over tid relisensieres til CC0 eller CC BY 4.0. Denne anbefalingen gis i påvente av en revisjon av de gjeldende retningslinjene for tilgjengeliggjøring av offentlige data.
+== Hvordan kommer jeg i gang?</p>
 </div>
 <div class="paragraph">
-<p>Du kan også vurdere å bruke Creative Commons Zero (CC0). Du sier da fra deg alle rettigheter til datasettet, inkludert retten til å bli oppgitt som kilde.</p>
+<p>Arbeidet med åpne data trenger ikke å starte med en fullstendig kartlegging av all informasjon i virksomheten. En god og ofte effektiv inngang er å ta utgangspunkt i kjente og konkrete databehov i egen virksomhet eller hos andre offentlige virksomheter, næringsliv, forskere eller innbyggere. Ved å gjøre ett eller noen få etterspurte datasett tilgjengelige, kan virksomheten raskt skaffe seg praktisk erfaring, skape synlig nytte og bygge intern forståelse for hva det innebærer å tilby åpne data.</p>
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_hvordan_kommer_jeg_i_gang"><a class="link" href="#_hvordan_kommer_jeg_i_gang">Hvordan kommer jeg i gang?</a></h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Arbeidet med å gjøre virksomhetens data tilgjengelig som åpne data, bør være godt samordnet med øvrig arbeid med informasjonsforvaltning i virksomheten. Prosessen som er beskrevet her er den samme som i Difis veileder “Orden i eget hus”, men tilpasset formålet: Å gjøre virksomhetenes data tilgjengelig som åpne data.</p>
+<p>Når arbeidet med åpne data går fra enkeltstående initiativ til mer varig praksis, bør det forankres i metodikken for orden i eget hus. Denne metodikken gir en strukturert, men fleksibel tilnærming til å skape og vedlikeholde oversikt over virksomhetens data. Den legger opp til en iterativ fremgangsmåte der dere kan starte i liten skala, for eksempel med noen få prioriterte datasett, og gradvis utvide omfanget. Gjennom steg som å planlegge, prioritere, kartlegge, vurdere tilgangsnivå, beskrive, tilgjengeliggjøre og forvalte data, får virksomheten bedre kontroll, kvalitet og felles forståelse av dataene. Over tid bidrar dette til at åpne data ikke blir et enkeltstående tiltak, men en integrert del av virksomhetens ordinære styring og informasjonsforvaltning, i tråd med prinsippene i <a href="https://www.digdir.no/2716">Veileder
+ for orden i eget hus</a>.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_hvilke_datasett_har_jeg"><a class="link" href="#_hvilke_datasett_har_jeg">Hvilke datasett har jeg?</a></h3>
 <div class="paragraph">
-<p>Vi anbefaler å starte med å lage oversikt over datasett og deretter beskrive de nærmere. For noen kan det være hensiktsmessig å ta for seg ulike arbeidsprosesser (f.eks. knyttet til tjenestene som virksomheten tilbyr), og identifisere og beskrive datasett for én og én prosess.</p>
+<p>Et naturlig neste steg er å skaffe seg en overordnet oversikt over hvilke datasett virksomheten forvalter. Vi anbefaler å begynne bredt og deretter beskrive datasettene nærmere etter hvert. For mange vil det være hensiktsmessig å ta utgangspunkt i virksomhetens arbeidsprosesser, for eksempel knyttet til tjenestene dere tilbyr, og identifisere datasett for én prosess om gangen.</p>
 </div>
 <div class="paragraph">
-<p>Beskriv datasettene på en overordnet måte: tittel, beskrivelse av innholdet, klassifisering (jf. trafikklyssystemet), utgiver/eier, kontaktperson og hvor ofte de oppdateres. Hensikten med oversikten er at potensielle brukere skal kunne oppdage hvilke data du forvalter, og ha mulighet til å påvirke hvilke datasett du bør tilby først.</p>
+<p>I denne fasen er det tilstrekkelig å beskrive datasettene på et overordnet nivå. Det kan for eksempel være tittel, kort beskrivelse av innholdet, vurdering av tilgang (jf. trafikklyssystemet), utgiver eller dataforvalter, kontaktperson og hvor ofte dataene oppdateres. Hensikten med oversikten er først og fremst å gjøre det mulig for potensielle brukere å oppdage hvilke data virksomheten forvalter, og å legge til rette for dialog om hvilke datasett som bør prioriteres for tilgjengeliggjøring.</p>
 </div>
 <div class="paragraph">
-<p>Ikke glem fremtidige datasett (data som virksomheten planlegger å samle inn) og data som blir samlet inn av virksomhetens leverandører og konsulenter. Dersom dette er data som er egnet som åpne data, bør en vurdere hvordan dette skal avspeiles i avtaler, kontrakter og finansieringsmodeller. Dette er spesielt viktig ved samarbeid og samfinansiering av datainnsamling.</p>
+<p>Det er også viktig å inkludere datasett som ennå ikke eksisterer, men som virksomheten planlegger å samle inn, samt data som samles inn på vegne av virksomheten av leverandører og konsulenter. Dersom slike data kan egne seg som åpne data, bør dette vurderes tidlig og reflekteres i avtaler, kontrakter og finansieringsmodeller. Dette er særlig viktig i samarbeid og samfinansierte prosjekter.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_hvilke_datasett_bør_jeg_tilby_først"><a class="link" href="#_hvilke_datasett_bør_jeg_tilby_først">Hvilke datasett bør jeg tilby først?</a></h3>
 <div class="paragraph">
-<p>Vi anbefaler å starte i det små med datasett som du vet eller tror er etterspurt av andre. Viktige spørsmål: finnes det noen kjente brukerbehov? Vet vi hva som er mest etterspurt? Hva har antatt høyest verdi for brukerne? Finnes det noen lavthengende frukter? Kostnader vs. antatt nytteverdi?</p>
+<p>Når dere har en overordnet oversikt, kan dere begynne å prioritere hvilke datasett som bør tilbys først. Vi anbefaler å starte i det små, gjerne med datasett som dere vet (eller har grunn til å tro) er etterspurt av andre. Still spørsmål som: Finnes det kjente brukerbehov? Hvilke data blir oftest etterspurt? Hvilke datasett antas å ha høy verdi for brukerne? Finnes det «lavthengende frukter» der kostnaden ved tilgjengeliggjøring er lav sammenlignet med forventet nytte?</p>
 </div>
 <div class="paragraph">
-<p>Det er ikke helt rett frem å vurdere hvilke data som har verdi for andre, ettersom du ikke kan vite hvilke formål de kan brukes til. Dersom du publiserer oversikten over hvilke data du har, gir du brukerne mulighet til å etterspørre data og dermed påvirke dine prioriteringer. Trafikklyssystemet (se over) kommuniserer på en enkel måte om data kan tilbys som åpne data (grønne) eller ikke (gule og røde data).</p>
+<p>Det er sjelden mulig å forutsi fullt ut hvilken verdi data kan få for andre, ettersom de kan brukes til formål dere ikke selv har forutsett. Ved å publisere en oversikt over hvilke data dere har, gir dere derfor brukerne mulighet til å gi innspill og etterspørre konkrete datasett, noe som kan bidra til bedre prioriteringer. Trafikklyssystemet gir samtidig en enkel og tydelig måte å kommunisere hvilke datasett som kan tilbys som åpne data (grønne), og hvilke som av ulike grunner ikke kan åpnes (gule og røde).</p>
 </div>
 </div>
 </div>
@@ -1039,11 +1046,20 @@ Data som tilbys skal ha klare vilkår for hvordan de kan brukes. Vilkårene skal
 &#8212; www.regjeringen.no/id2536870/#punkt_en
 </div>
 </div>
-<div class="paragraph">
-<p>I tillegg til NLOD og CC-BY 4.0 kan du som eier og utgiver av data velge å dedikere datasett til det fri ved å bruke Creative Commons Zero (CC0). CC0 er en fullstendig fraskrivelse av dine retter som rettighetshaver, og brukerne kan bruke data fritt uten å oppgi kilde. CC0 er anbefalt av EU-kommisjonen.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Merk"></i>
+</td>
+<td class="content">
+I tråd med anbefalingene i <a href="https://www.regjeringen.no/no/dokumenter/nou-2024-14/id3046520/">NOU 2024: 14 Med lov skal data deles</a> anbefaler Digitaliseringsdirektoratet offentlige virksomheter å lisensiere åpne data med CC0 eller CC 4.0-BY. Dette betyr at Norsk lisens for offentlige data (NLOD) ikke lenger er anbefalt brukt.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Når du registrerer datasett på data.norge.no, Felles datakatalog eller Geonorge.no er angivelse av lisens ivaretatt i registreringsskjemaet. Dersom du har en lokal datakatalog som de nasjonale katalogene skal høste datasettbeskrivelser fra, må lisensen angis i tråd med <a href="https://data.norge.no/specification/dcat-ap-no/">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)</a></p>
+<p>Når du registrerer datasett på data.norge.no eller Geonorge.no er angivelse av lisens ivaretatt i registreringsskjemaet. Dersom du har en lokal datakatalog som de nasjonale katalogene skal høste datasettbeskrivelser fra, må lisensen angis i tråd med <a href="https://data.norge.no/specification/dcat-ap-no/">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO)</a></p>
 </div>
 <div class="paragraph">
 <p>Dersom du har en egen nettside som omtaler virksomhetens åpne datasett, bør lisensen omtales også der, for eksempel slik:</p>
@@ -1082,7 +1098,7 @@ Data skal i utgangspunktet gjøres tilgjengelig uten at brukeren må søke om ti
 </div>
 </div>
 <div class="paragraph">
-<p>Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og tar selv risikoen ved å ikke gjøre det. <a href="http://data.stortinget.no/">De åpne data-tjenestene til Stortinget</a> er et godt eksempel på bruk av frivillig registrering. Alternativt vil en fast adresse i form av en nettside, RSS-strøm og/eller en Twitter-konto der driftsmeldinger og øvrige meldinger publiseres, være et godt alternativ til å be brukerne oppgi kontaktinformasjon. Her er Statens vegvesens Twitter-konto <a href="https://twitter.com/VegvesenData">@VegvesenData</a> et godt eksempel.</p>
+<p>Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og tar selv risikoen ved å ikke gjøre det. <a href="http://data.stortinget.no/">De åpne data-tjenestene til Stortinget</a> er et godt eksempel på bruk av frivillig registrering. Alternativt vil en fast adresse i form av en nettside, RSS-strøm og/eller en sosiale medier-konto der driftsmeldinger og øvrige meldinger publiseres, være et godt alternativ til å be brukerne oppgi kontaktinformasjon.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1096,17 +1112,17 @@ Virksomhetene bør dokumentere datasettene slik at det blir enkelt å ta dataset
 </div>
 </div>
 <div class="paragraph">
-<p>På data.norge.no kan du registrere åpne datasett på en enkel måte. Beskrivelsene blir samtidig gjort tilgjengelig for andre dataportaler som <a href="https://www.europeandataportal.eu/">den europeiske datakatalogen</a>. Dersom du ønsker en lokal datakatalog for din virksomhet må løsningen tilby maskinlesbare datasettbeskrivelser i tråd med “Standard for beskrivelse av datasett og datakataloger”.</p>
+<p>På data.norge.no kan du dokumentere datasett, inkludert åpne data, på en enkel måte. Beskrivelsene blir samtidig gjort tilgjengelig for andre dataportaler som <a href="https://www.data.europa.eu/">den europeiske datakatalogen</a>. Dersom du ønsker en lokal datakatalog for din virksomhet må løsningen tilby maskinlesbare datasettbeskrivelser i tråd med gjeldende krav i <a href="https://www.digdir.no/1480">Referansekatalogen for IT-standarder</a>. Geodata bør dokumenteres på Geonorge i tråd med <a href="https://www.geonorge.no/standarder/">Geonorge sine standarder</a>.</p>
 </div>
 <div class="paragraph">
-<p>For dokumentasjon av API-er anbefaler vi å bruke <a href="https://swagger.io/docs/specification/about/">OpenAPI Specification</a></p>
+<p>For dokumentasjon av API-er anbefaler vi å bruke <a href="https://www.openapis.org/">OpenAPI Specification</a></p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_5_tilby_informasjon_om_datakvalitet"><a class="link" href="#_5_tilby_informasjon_om_datakvalitet">5. Tilby informasjon om datakvalitet</a></h3>
 <div class="quoteblock">
 <blockquote>
-Kvaliteten på virksomhetens data påvirker hvor egnet de er til andre formål enn de først ble skapt for. Dokumentering av datakvalitet er til stor hjelp i prosessen med å vurdere om virksomhetens datasett er egnet til andre formål, og øker sjansen for bruk. Datakvaliteten bør derfor være dokumentert, og kjente utfordringer bør eksplisitt omtales i beskrivelsene.
+Kvaliteten på virksomhetens data påvirker hvor egnet de er til andre formål enn de først ble skapt for. Dokumentering av datakvalitet er til stor hjelp i prosessen med å vurdere om virksomhetens datasett er egnet til andre formål, og øker sjansen for rett bruk. Datakvaliteten bør derfor være dokumentert, og kjente utfordringer bør eksplisitt omtales i beskrivelsene.
 </blockquote>
 <div class="attribution">
 &#8212; www.regjeringen.no/id2536870/#punkt_fem
@@ -1138,7 +1154,7 @@ Virksomheten bør tilby oppdaterte data og være tydelig på hvilken oppdatering
 <p>Dersom du tilbyr et periodisk datasett - altså et datasett som oppdateres med faste intervaller (tidsserie), kan det være hensiktsmessig å legge til en ny fil uten å endre den forrige. Dersom du bruker et fast mønster for URL-ene gjør du det enkelt for brukerne å automatisere uthentingen av siste versjon.</p>
 </li>
 <li>
-<p>Dersom du tilbyr data som oppdateres ofte (eller uregelmessig), er det gjerne mest hensiktmessig for brukerne å hente data fra et API eller eventuelt en RSS-strøm.</p>
+<p>Dersom du tilbyr data som oppdateres ofte (eller uregelmessig), er det gjerne mest hensiktmessig for brukerne å hente data fra et API.</p>
 </li>
 </ul>
 </div>
@@ -1147,14 +1163,14 @@ Virksomheten bør tilby oppdaterte data og være tydelig på hvilken oppdatering
 <h3 id="_7_gjør_data_synlige"><a class="link" href="#_7_gjør_data_synlige">7. Gjør data synlige</a></h3>
 <div class="quoteblock">
 <blockquote>
-For at potensielle brukere av offentlige data enkelt skal kunne finne data, bør beskrivelser av datasett være tilgjengelig på data.norge.no, som er en katalog med beskrivelser av åpne datasett fra det offentlige. Difi gir anbefalinger om formater for dette formålet i dokumentet Standard for beskrivelser av datasett og datakataloger. Virksomheten bør vurdere å tilby beskrivelser på engelsk i tillegg til norsk.
+For at potensielle brukere av offentlige data enkelt skal kunne finne data, bør beskrivelser av datasett være tilgjengelig på data.norge.no, som er en katalog med beskrivelser av åpne datasett fra det offentlige. Anbefalinger om formater for dette formålet finner du i <a href="https://www.digdir.no/1480">Referansekatalogen for IT-standarder</a>. Virksomheten bør vurdere å tilby beskrivelser på engelsk i tillegg til norsk.
 </blockquote>
 <div class="attribution">
 &#8212; www.regjeringen.no/id2536870/#punkt_sju
 </div>
 </div>
 <div class="paragraph">
-<p>Registreringsskjemane til de nasjonale datakatalogene (data.norge.no, Felles datakatalog og Geonorge.no) støtter alle gjeldende anbefalinger og krav knytter til datakataloger for offentlige virksomheter. Dersom du velger å etablere en egen/lokal datakatalog for din virksomhet, må du sikre at gjeldende standarder støttes, slik at de nasjonale katalogene kan høste datasettbeskrivelser fra din løsning.</p>
+<p>Registreringsskjemane til de nasjonale datakatalogene (data.norge.no og Geonorge.no) støtter alle gjeldende anbefalinger og krav knytter til datakataloger for offentlige virksomheter. Dersom du velger å etablere en egen/lokal datakatalog for din virksomhet, må du sikre at gjeldende standarder støttes, slik at de nasjonale katalogene kan høste datasettbeskrivelser fra din løsning.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1182,7 +1198,7 @@ Et programmeringsgrensesnitt (API) er en måte å tilby data på som gjør det m
 </div>
 </div>
 <div class="paragraph">
-<p>I utforming av et API, er det viktig å tenke på hvordan best å gjøre data tilgjengelige og lette å anvende. REST-API-er er en svært populært API-stil, og dermed en godt sted å begynne, fremfor eldre stiler som SOAP, som er vanskeligere for brukere å anvende. Vi anbefaler å benytte egenskaper i standarden du følger. For API-er som bruker HTTP-protokollen, kan du for eksempel støtte ETag for at brukere lett kan sjekke om noe er oppdatert, og kompresjon (gzip, brotli) for raskere overføring. Vi anbefaler også å benytte <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md">OpenAPI-Specification</a> for dokumentasjon og <a href="https://semver.org/">Semantic Versioning</a> (Semver) for versjonering.</p>
+<p>I utforming av et API, er det viktig å tenke på hvordan best å gjøre data tilgjengelige og lette å anvende. REST-API-er er en svært populært API-stil, og dermed en godt sted å begynne, fremfor eldre stiler som SOAP, som er vanskeligere for brukere å anvende. Vi anbefaler å benytte egenskaper i standarden du følger. For API-er som bruker HTTP-protokollen, kan du for eksempel støtte ETag for at brukere lett kan sjekke om noe er oppdatert, og kompresjon (gzip, brotli) for raskere overføring. Vi anbefaler også å benytte <a href="https://spec.openapis.org/oas/latest.html">OpenAPI-Specification</a> for dokumentasjon og <a href="https://semver.org/">Semantic Versioning</a> (Semver) for versjonering.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1222,7 +1238,7 @@ Data bør ha unike, permanente og hensiktsmessige adresser på internett, slik a
 <p>URLer kan også fungere fint som identifikatorer gitt at de er unike, permanente og hensiktsmessige. URLer som samtidig er identifikatorer for en ressurs (for eksempel et datasett, begrep eller en opplysning) kaller vi URIer (Uniform Resource Identifier).</p>
 </div>
 <div class="paragraph">
-<p>Se <a href="https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480">Referansekatalogen for IT-standarder</a> for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.</p>
+<p>Se <a href="https://www.digdir.no/1480">Referansekatalogen for IT-standarder</a> for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1267,7 +1283,7 @@ Virksomhetene bør tilpasse data slik at brukere enkelt kan ta dem i bruk, for e
 </div>
 </div>
 <div class="paragraph">
-<p>Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på hackathons eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.</p>
+<p>Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på hackathons eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer som har åpne data og/eller informasjonsforvaltning som tema.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1419,13 +1435,16 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 <h2 id="_videre_lesning"><a class="link" href="#_videre_lesning">Videre lesning</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href="https://www.europeandataportal.eu/en/providing-data/goldbook">Open Data Goldbook for Data Managers and Data Holders</a></p>
+<p><a href="https://data.europa.eu/en/training/data-providers-guide">Open Data Goldbook for Data Managers and Data Holders</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716">Veileder for orden i eget hus</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://data.norge.no/guide/veileder-beskrivelse-av-datasett">Veileder for beskrivelse av datasett, datatjenester og datakataloger</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://data.norge.no/nb/docs">Brukerveildening for data.norge.no</a></p>
 </div>
 <div class="sect2">
 <h3 id="_relevante_standarder_og_spesifikasjoner"><a class="link" href="#_relevante_standarder_og_spesifikasjoner">Relevante standarder og spesifikasjoner</a></h3>
@@ -1439,14 +1458,14 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 <p><a href="https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492">Peikarar til offentlege ressursar på nett (URI-er)</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md">Open API-specification</a></p>
+<p><a href="https://spec.openapis.org/oas/latest.html">Open API-specification</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://semver.org/">Semantic Versioning (Semver)</a></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_andre_relevante_lenker"><a class="link" href="#_andre_relevante_lenker">Andre relevante lenker:</a></h3>
+<h3 id="_andre_relevante_lenker"><a class="link" href="#_andre_relevante_lenker">Andre relevante lenker</a></h3>
 <div class="paragraph">
 <p><a href="https://data.norge.no/">Data.norge.no</a></p>
 </div>
@@ -1454,7 +1473,7 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 <p><a href="https://www.geonorge.no/">Geonorge.no</a></p>
 </div>
 <div class="paragraph">
-<p><a href="https://www.europeandataportal.eu/">EUs data-portal</a></p>
+<p><a href="https://data.europa.eu/en">EUs data-portal</a></p>
 </div>
 <div class="paragraph">
 <p><a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer ved tilgjengeliggjøring av offentlige data</a></p>
@@ -1478,7 +1497,7 @@ Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomhete
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2025-08-25 08:22:29 UTC
+Sist oppdatert 2026-01-26 12:58:31 UTC
 </div>
 </div>
 </body>
