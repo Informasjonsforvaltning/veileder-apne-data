@@ -45,7 +45,7 @@ Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og
 [quote,www.regjeringen.no/id2536870/#punkt_fire]
 Virksomhetene bør dokumentere datasettene slik at det blir enkelt å ta datasettene i bruk både for mennesker og maskiner. Med dokumentasjon mener vi beskrivelser som gjør det mulig for andre å oppdage, forstå og bruke dine data.
 
-På data.norge.no kan du registrere åpne datasett på en enkel måte. Beskrivelsene blir samtidig gjort tilgjengelig for andre dataportaler som https://www.data.europa.eu/[den europeiske datakatalogen]. Dersom du ønsker en lokal datakatalog for din virksomhet må løsningen tilby maskinlesbare datasettbeskrivelser i tråd med gjeldende krav i https://www.digdir.no/1480[Referansekatalogen for IT-standarder]. Geodata bør dokumenteres på Geonorge i tråd med https://www.geonorge.no/standarder/[Geonorge sine standarder].
+På data.norge.no kan du dokumentere datasett, inkludert åpne data, på en enkel måte. Beskrivelsene blir samtidig gjort tilgjengelig for andre dataportaler som https://www.data.europa.eu/[den europeiske datakatalogen]. Dersom du ønsker en lokal datakatalog for din virksomhet må løsningen tilby maskinlesbare datasettbeskrivelser i tråd med gjeldende krav i https://www.digdir.no/1480[Referansekatalogen for IT-standarder]. Geodata bør dokumenteres på Geonorge i tråd med https://www.geonorge.no/standarder/[Geonorge sine standarder].
 
 For dokumentasjon av API-er anbefaler vi å bruke https://www.openapis.org/[OpenAPI Specification]
 
