@@ -1,3 +1,4 @@
+
 == Hvordan kommer jeg i gang?
 
 Arbeidet med åpne data trenger ikke å starte med en fullstendig kartlegging av all informasjon i virksomheten. En god og ofte effektiv inngang er å ta utgangspunkt i kjente og konkrete databehov i egen virksomhet eller hos andre offentlige virksomheter, næringsliv, forskere eller innbyggere. Ved å gjøre ett eller noen få etterspurte datasett tilgjengelige, kan virksomheten raskt skaffe seg praktisk erfaring, skape synlig nytte og bygge intern forståelse for hva det innebærer å tilby åpne data.
