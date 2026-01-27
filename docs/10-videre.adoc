@@ -1,11 +1,14 @@
 
 == Videre lesning
 
-https://www.europeandataportal.eu/en/providing-data/goldbook[Open Data Goldbook for Data Managers and Data Holders]
+https://data.europa.eu/en/training/data-providers-guide[Open Data Goldbook for Data Managers and Data Holders]
 
 https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Veileder for orden i eget hus]
 
 https://data.norge.no/guide/veileder-beskrivelse-av-datasett[Veileder for beskrivelse av datasett, datatjenester og datakataloger]
+
+https://data.norge.no/nb/docs[Brukerveildening for data.norge.no]
+
 
 
 === Relevante standarder og spesifikasjoner
@@ -17,17 +20,17 @@ https://data.norge.no/guide/veileder-kvantifiserbar-kvalitet[Veileder for beskri
 
 https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492[Peikarar til offentlege ressursar på nett (URI-er)]
 
-https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md[Open API-specification]
+https://spec.openapis.org/oas/latest.html[Open API-specification]
 
 https://semver.org/[Semantic Versioning (Semver)]
 
-=== Andre relevante lenker:
+=== Andre relevante lenker
 
 https://data.norge.no/[Data.norge.no]
 
 https://www.geonorge.no/[Geonorge.no]
 
-https://www.europeandataportal.eu/[EUs data-portal]
+https://data.europa.eu/en[EUs data-portal]
 
 https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data]
 
